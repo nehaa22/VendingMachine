@@ -20,8 +20,6 @@ public class VendingMachineImpl implements VendingMachine {
 
     private List<Note> changedNotes = new ArrayList<>();
 
-//    private AmountCalculator calculator;
-
     @Override
     public List<Note> getChange(int totalAmount) {
         return getChangeThroughRecursion(totalAmount, availableNotes.size() - 1);

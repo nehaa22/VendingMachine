@@ -21,4 +21,10 @@ public class VendingMachineImplTest {
         List<Note> changedNotes = vendingMachine.getChange(0);
         assertEquals(0, changedNotes.size());
     }
+
+    @Test
+    void get_one_change_if_total_amount_is_1000() {
+        List<Note> changedNotes = vendingMachine.getChange(1000);
+        assertEquals(1, changedNotes.size());
+    }
 }
