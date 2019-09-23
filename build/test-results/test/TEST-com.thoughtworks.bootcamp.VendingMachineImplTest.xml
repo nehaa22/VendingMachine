@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.thoughtworks.bootcamp.VendingMachineImplTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-23T04:07:19" hostname="Snehas-MacBook-Pro-2.local" time="0.008">
+  <properties/>
+  <testcase name="get_zero_change_if_total_amount_is_zero()" classname="com.thoughtworks.bootcamp.VendingMachineImplTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
